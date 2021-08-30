@@ -5,7 +5,7 @@ import sys
 # Connect to MariaDB Platform
 try:
     conn = mariadb.connect(
-        user="root@10.43.8.103",
+        user="root",
         password="K0m0rnik2013!",
         host="10.43.8.103",
         port=3306,
