@@ -19,7 +19,7 @@ except mariadb.Error as e:
 # Get Cursor
 cur = conn.cursor()
 
-print(f"hello world!")
+
 
 
 
