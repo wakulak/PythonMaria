@@ -9,7 +9,7 @@ try:
         password="password",
         host="10.43.8.103",
         port=3306,
-        #database="wordpress"
+        database="test"
 
     )
 except mariadb.Error as e:
@@ -18,3 +18,9 @@ except mariadb.Error as e:
 
 # Get Cursor
 cur = conn.cursor()
+
+
+
+
+
+conn.close()
